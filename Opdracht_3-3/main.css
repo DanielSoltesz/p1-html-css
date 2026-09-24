@@ -1,0 +1,20 @@
+table {
+    color: white;
+    border-spacing: 0;
+}
+
+th {
+    background-color: blue;
+}
+
+td {
+    background-color: lightblue;
+}
+
+td:first-child {
+    background-color: black;
+}
+
+tr:first-child td:last-child {
+    border-bottom-right-radius: 60px;
+}
