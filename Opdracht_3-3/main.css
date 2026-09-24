@@ -8,13 +8,13 @@ th {
 }
 
 td {
-    background-color: lightblue;
-}
-
-td:first-child {
     background-color: black;
 }
 
-tr:first-child td:last-child {
+td:first-child{
+    background-color: lightblue;
+}
+
+tr:last-child td:last-child {
     border-bottom-right-radius: 60px;
 }
