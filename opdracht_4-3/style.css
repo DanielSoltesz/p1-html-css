@@ -1,0 +1,132 @@
+@font-face {
+    font-family: ftltlt;
+    src: url('../fonts(4-3)/ftltlt-webfont.woff');
+}
+
+html {
+    font-family: ftltlt;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #7272dd;
+    padding: 15px 0;
+}
+
+a {
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    font-family: ftltlt;
+}
+
+h1 {
+    display: inline;
+    font-family: ftltlt;
+}
+
+section {
+    padding: 50px;
+    background-color: #f5f7fa;
+}
+
+.hero {
+    background-color: black;
+    color: white;
+}
+
+p {
+    font-family: ftltlt;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-image {
+    width: 25%;
+    height: 25%;
+}
+
+.btn1 {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.btn2 {
+    background-color: #9000ff;
+    color: white;
+    padding: 10px 20px;
+    border-color: #9000ff;
+    border-radius: 10px;
+    border: 1px solid #9000ff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn3 {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 15px;
+    padding: 100px;
+}
+
+.box {
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    left: 50px;
+    top: 130px;
+}
+
+.box1,
+.box2,
+.box3 {
+    position: absolute;
+    width: 20px;
+    height: 10px;
+}
+
+.box1 {
+    background-color: #9000ff;
+}
+
+.box2 {
+    background-color: #55559f;
+    left: 30px;
+}
+
+.box3 {
+    background-color: #b0b0eb;
+    left: 60px;
+}
+
+footer {
+    background-color: #7272dd;
+    padding: 15px 0;
+}
