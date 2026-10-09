@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.stage {
+  position: relative;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.bannerSize {
+  width: 300px;
+  height: 250px;
+  background-color: black;
+}
+
+.box {
+  position: absolute;
+  width: 20px;
+  height: 10px;
+  left: 15px;
+  top: 15px;
+}
+
+.box1,
+.box2,
+.box3 {
+  position: absolute;
+  width: 20px;
+  height: 10px;
+}
+
+.box1 {
+  background-color: #9000ff;
+}
+
+.box2 {
+  background-color: #55559f;
+  left: 30px;
+}
+
+.box3 {
+  background-color: #b0b0eb;
+  left: 60px;
+}
+
+p {
+  position: absolute;
+  padding-top: 118px;
+  padding-left: 15px;
+  color: white;
+}
+
+.headerText {
+  position: absolute;
+  padding-top: 40px;
+  padding-left: 15px;
+  color: white;
+  font-size: 50px;
+}
+
+h2 {
+  position: absolute;
+  margin-top: 94px;
+  padding-left: 15px;
+  color: white;
+}
+
+ul {
+  margin-top: 135px;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-top: 0px;
+  color: white;
+}
+
+.hiImg {
+  position: absolute;
+  left: 146px;
+  top: 37px;
+  width: 40px;
+  height: auto;
+}
+
+.simImg {
+  position: absolute;
+  left: 205px;
+  top: 37px;
+  width: 70px;
+  height: auto;
+}
+
+.circle {
+  position: absolute;
+  width: 350px;
+  height: 345px;
+  background-color: #7272dd;
+  border-radius: 100%;
+  bottom: -275px;
+  right: -100px;
+}
+
+.btn {
+  position: absolute;
+  background-color: #7272dd;
+  color: white;
+  padding: 10px 10px;
+  border-color: white;
+  border-radius: 10px;
+  border: 1px solid;
+  cursor: pointer;
+  margin-top: 20px;
+  left: 160px;
+  top: 175px;
+}
