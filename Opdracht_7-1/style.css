@@ -1,0 +1,123 @@
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* Voor desktop */
+@media screen and (max-width: 3024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        margin-top: 23px;
+        margin-bottom: 0;
+    }
+
+    .mainbar {
+        background-color: tomato;
+        padding: 10px;
+        padding-left: 50px;
+        color: white;
+    }
+
+    .topbar {
+        background-color: yellow;
+        padding-bottom: 142px;
+        padding-left: 50px;
+    }
+
+    .midbar {
+        background-color: orange;
+        padding-bottom: 142px;
+        padding-left: 50px;
+    }
+
+    .lowbar {
+        background-color: green;
+        padding-bottom: 142px;
+        padding-left: 50px;
+    }
+}
+
+
+/* Voor tablet */
+@media screen and (max-width: 902px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .mainbar {
+        background-color: pink;
+        padding: 10px;
+    }
+
+    .topbar {
+        background-color: mediumvioletred;
+        padding-bottom: 137px;
+        padding-top: 5px;
+    }
+
+    .midbar {
+        background-color: darkblue;
+        padding-bottom: 137px;
+        padding-top: 5px;
+    }
+
+    .lowbar {
+        background-color: blue;
+        padding-bottom: 137px;
+        padding-top: 5px;
+    }
+}
+
+/* Voor mobiel */
+@media screen and (max-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainbar {
+        background-color: mediumslateblue;
+        padding: 10px;
+        padding-left: -50px;
+    }
+
+    .topbar {
+        background-color: aquamarine;
+        padding-bottom: 137px;
+        padding-top: 5px;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .midbar {
+        background-color: fuchsia;
+        padding-bottom: 137px;
+        padding-top: 5px;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .lowbar {
+        background-color: darkblue;
+        padding-bottom: 137px;
+        padding-top: 5px;
+        text-align: center;
+        padding-left: 0px;
+    }
+}
